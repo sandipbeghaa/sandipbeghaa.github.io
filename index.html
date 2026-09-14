@@ -1,420 +1,1527 @@
 <!DOCTYPE html>
+<html lang="en">
 
-<html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <meta charset="UTF-8">
 
-<title>Sandip Begha | Graphic Designer & Aspiring Software Developer</title>
-<meta
-    name="description"
-    content="Portfolio of Sandip Begha, a graphic designer and aspiring software developer learning Python and JavaScript."
->
+    <meta
+        name="google-site-verification"
+        content="xPW3CFczKjs4tVagYYJPGyDa72vQdnd5QAIZ8LpNJwQ"
+    >
 
-<style>
-    :root {
-        --primary: #2563eb;
-        --dark: #1e293b;
-        --text: #475569;
-        --light: #f8fafc;
-        --border: #e2e8f0;
-        --tech-bg: #dcfce7;
-        --tech-text: #166534;
-        --design-bg: #fee2e2;
-        --design-text: #991b1b;
-    }
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    * {
-        box-sizing: border-box;
-    }
+    <meta
+        name="description"
+        content="Portfolio of Sandip Begha, a graphic designer and aspiring software developer learning Python, JavaScript and application development."
+    >
 
-    body {
-        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
-            Roboto, Arial, sans-serif;
-        line-height: 1.6;
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 40px 20px;
-        color: var(--dark);
-        background: #ffffff;
-    }
+    <title>Sandip Begha | Designer | Developer</title>
 
-    header {
-        margin-bottom: 40px;
-    }
+    <!-- Manrope -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
-    h1 {
-        margin: 0 0 5px;
-        font-size: 2.3rem;
-    }
+    <link
+        href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&display=swap"
+        rel="stylesheet"
+    >
 
-    h2 {
-        margin-top: 40px;
-        padding-bottom: 8px;
-        border-bottom: 2px solid var(--border);
-        font-size: 1.4rem;
-    }
+    <style>
 
-    .subtitle {
-        margin: 0 0 20px;
-        color: var(--text);
-        font-size: 1.15rem;
-    }
+        /* =========================================
+           RESET
+        ========================================= */
 
-    .intro {
-        color: var(--text);
-        max-width: 700px;
-    }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-    .links {
-        margin-top: 20px;
-    }
+        html {
+            scroll-behavior: smooth;
+        }
 
-    .links a {
-        display: inline-block;
-        margin-right: 15px;
-        margin-bottom: 8px;
-        color: var(--primary);
-        text-decoration: none;
-        font-weight: 500;
-    }
-
-    .links a:hover {
-        text-decoration: underline;
-    }
-
-    .skills-group {
-        margin-bottom: 20px;
-    }
-
-    .skills-label {
-        margin-bottom: 8px;
-        font-weight: 600;
-    }
-
-    .badge {
-        display: inline-block;
-        padding: 6px 12px;
-        margin: 4px 4px 4px 0;
-        border-radius: 20px;
-        font-size: 0.9rem;
-        font-weight: 600;
-    }
-
-    .tech {
-        background-color: var(--tech-bg);
-        color: var(--tech-text);
-    }
-
-    .design {
-        background-color: var(--design-bg);
-        color: var(--design-text);
-    }
-
-    .item {
-        margin-bottom: 25px;
-    }
-
-    .item-title {
-        margin: 0;
-        font-weight: 700;
-        font-size: 1.1rem;
-    }
-
-    .item-sub {
-        margin: 3px 0;
-        color: var(--primary);
-    }
-
-    .item-desc {
-        margin: 6px 0 0;
-        color: var(--text);
-    }
-
-    footer {
-        margin-top: 50px;
-        padding-top: 20px;
-        border-top: 1px solid var(--border);
-        color: var(--text);
-        font-size: 0.9rem;
-    }
-
-    @media (max-width: 600px) {
         body {
-            padding: 25px 16px;
+            font-family: "Manrope", sans-serif;
+            background: #08090b;
+            color: #f5f5f5;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+            text-rendering: optimizeLegibility;
         }
 
-        h1 {
-            font-size: 2rem;
+        img {
+            max-width: 100%;
+            display: block;
         }
-    }
-</style>
 
-<script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Sandip Begha",
-      "url": "https://github.io",
-      "jobTitle": "Software Developer and Graphic Designer",
-      "description": "Software developer proficient in JavaScript and Python, building clean desktop utilities and interactive user interfaces.",
-      "alumniOf": {
-        "@type": "EducationalOrganization",
-        "name": "Triton International College"
-      },
-      "hasCredential": {
-        "@type": "EducationalOccupationalCredential",
-        "name": "Bachelor of Arts in Social Work",
-        "credentialCategory": "degree",
-        "about": [
-          {
-            "@type": "Thing",
-            "name": "Social Work"
-          },
-          {
-            "@type": "Thing",
-            "name": "Psychology"
-          }
-        ]
-      },
-      "worksFor": [
-        {
-          "@type": "Organization",
-          "name": "Codeyard"
-        },
-        {
-          "@type": "Organization",
-          "name": "Arya Digital Production"
-        },
-        {
-          "@type": "Organization",
-          "name": "Daraz"
+        a {
+            color: inherit;
+            text-decoration: none;
         }
-      ],
-      "sameAs": [
-        "https://github.com/sandipbeghaa",
-        "https://sites.google.com/view/sandip-begha/home",
-        "https://linktr.ee"
-      ],
-      "knowsAbout": [
-        "JavaScript",
-        "Python",
-        "Tkinter UI",
-        "Software Development",
-        "Graphic Design",
-        "Adobe Photoshop",
-        "Adobe Illustrator",
-        "Adobe Lightroom",
-        "Adobe After Effects"
-      ]
-    }
-    </script>    
 
+        ::selection {
+            background: #ffffff;
+            color: #08090b;
+        }
+
+        :root {
+            --bg: #08090b;
+            --surface: #101216;
+            --surface-2: #14171c;
+            --text: #f5f5f5;
+            --text-soft: #d1d5db;
+            --muted: #969ba5;
+            --accent: #a78bfa;
+            --border: rgba(255, 255, 255, 0.09);
+            --max-width: 1180px;
+        }
+
+
+        /* =========================================
+           GLOBAL
+        ========================================= */
+
+        .container {
+            width: min(100% - 48px, var(--max-width));
+            margin: 0 auto;
+        }
+
+        section {
+            padding: 135px 0;
+            scroll-margin-top: 80px;
+        }
+
+
+        /* =========================================
+           TYPOGRAPHY
+        ========================================= */
+
+        .section-title {
+            max-width: 900px;
+            font-size: clamp(54px, 6.5vw, 78px);
+            line-height: 0.98;
+            letter-spacing: -0.06em;
+            font-weight: 700;
+        }
+
+        .section-description {
+            max-width: 720px;
+            margin-top: 28px;
+            color: var(--muted);
+            font-size: 19px;
+            line-height: 1.75;
+            letter-spacing: -0.01em;
+        }
+
+        .section-header {
+            margin-bottom: 72px;
+        }
+
+
+        /* =========================================
+           NAVIGATION
+        ========================================= */
+
+        .navbar {
+            position: sticky;
+            top: 0;
+            z-index: 100;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+            background: rgba(8, 9, 11, 0.84);
+            backdrop-filter: blur(18px);
+            -webkit-backdrop-filter: blur(18px);
+        }
+
+        .nav-inner {
+            min-height: 74px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .logo {
+            font-size: 24px;
+            font-weight: 800;
+            letter-spacing: -0.05em;
+        }
+
+        .logo span {
+            color: var(--accent);
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .nav-links a {
+            color: var(--muted);
+            font-size: 20px;
+            font-weight: 600;
+            transition: color 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            color: var(--text);
+        }
+
+
+        /* =========================================
+           HERO
+        ========================================= */
+
+        .hero {
+            min-height: calc(100vh - 74px);
+            display: flex;
+            align-items: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero::after {
+            content: "";
+            position: absolute;
+            width: 600px;
+            height: 600px;
+            top: -150px;
+            right: -180px;
+            border-radius: 50%;
+            background: rgba(139, 92, 246, 0.09);
+            filter: blur(110px);
+            pointer-events: none;
+        }
+
+        .hero-content {
+            max-width: 980px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero-role {
+            margin-bottom: 25px;
+            color: var(--accent);
+            font-size: 14px;
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .hero-title {
+            max-width: 950px;
+            font-size: clamp(64px, 9vw, 108px);
+            line-height: 1.05;
+            letter-spacing: -0.06em;
+            font-weight: 800;
+}
+
+        .hero-title span {
+            display: inline-block;
+            margin-top: 22px;
+            color: #ffffff;
+            line-height: 0.95;
+        }
+
+        .hero-description {
+            max-width: 720px;
+            margin-top: 38px;
+            color: var(--muted);
+            font-size: 19px;
+            line-height: 1.75;
+            letter-spacing: -0.015em;
+        }
+
+        .hero-actions {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 42px;
+        }
+
+
+        /* =========================================
+           BUTTONS
+        ========================================= */
+
+        .button {
+            min-height: 50px;
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            padding: 0 23px;
+            border-radius: 9px;
+            border: 1px solid var(--border);
+            font-size: 14px;
+            font-weight: 700;
+            transition:
+                transform 0.2s ease,
+                background 0.2s ease,
+                border-color 0.2s ease;
+        }
+
+        .button:hover {
+            transform: translateY(-2px);
+        }
+
+        .button-primary {
+            background: #f5f5f5;
+            color: #08090b;
+        }
+
+        .button-secondary {
+            background: transparent;
+            color: var(--text);
+        }
+
+        .button-secondary:hover {
+            background: var(--surface);
+            border-color: rgba(255, 255, 255, 0.2);
+        }
+
+
+        /* =========================================
+           ABOUT
+        ========================================= */
+
+        .about-grid {
+            padding: 50px;
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            background:
+                radial-gradient(
+                    circle at top right,
+                    rgba(139, 92, 246, 0.13),
+                    transparent 50%
+                ),
+                var(--surface);
+        }
+
+        .about-lead {
+            font-size: 32px;
+            line-height: 1.35;
+            letter-spacing: -0.04em;
+            font-weight: 600;
+            margin-bottom: 25px;
+        }
+
+        .about-copy p {
+            color: var(--muted);
+            font-size: 18px;
+            line-height: 1.8;
+            letter-spacing: -0.01em;
+        }
+
+        .about-copy p + p {
+            margin-top: 25px;
+        }
+
+
+        /* =========================================
+           SKILLS
+        ========================================= */
+
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 24px;
+        }
+
+        .skill-card {
+            min-height: 250px;
+            padding: 32px;
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            background:
+                radial-gradient(
+                    circle at top right,
+                    rgba(139, 92, 246, 0.13),
+                    transparent 50%
+                ),
+                var(--surface);
+            transition:
+                transform 0.25s ease,
+                border-color 0.25s ease;
+        }
+
+        .skill-card:hover {
+            transform: translateY(-4px);
+            border-color: rgba(167, 139, 250, 0.3);
+        }
+
+        .skill-card h3 {
+            margin-bottom: 25px;
+            font-size: 28px;
+            font-weight: 700;
+            line-height: 1.2;
+            letter-spacing: -0.04em;
+        }
+
+        .skill-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            align-content: flex-start;
+        }
+
+        .skill-list span {
+            padding: 9px 13px;
+            border: 1px solid var(--border);
+            border-radius: 7px;
+            color: var(--text-soft);
+            font-size: 15px;
+            line-height: 1;
+            font-weight: 500;
+        }
+
+        /* =========================================
+           PROJECTS
+        ========================================= */
+
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 18px;
+        }
+
+        .project-card {
+            min-height: 400px;
+            display: flex;
+            flex-direction: column;
+            padding: 34px;
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            transition:
+                transform 0.25s ease,
+                border-color 0.25s ease;
+            background:
+                radial-gradient(
+                    circle at top right,
+                    rgba(139, 92, 246, 0.13),
+                    transparent 50%
+                ),
+                var(--surface);
+        }
+
+        .project-card:hover {
+            transform: translateY(-5px);
+            border-color: rgba(167, 139, 250, 0.3);
+        }
+
+        .project-card h3 {
+            font-size: 28px;
+            line-height: 1.15;
+            letter-spacing: -0.045em;
+        }
+
+        .project-tech {
+            display: flex;
+            gap: 8px;
+            flex-wrap: wrap;
+            margin-top: 18px;
+        }
+
+        .project-tech span {
+            color: var(--accent);
+            font-size: 14px;
+            font-weight: 700;
+        }
+
+        .project-card p {
+            margin-top: 22px;
+            color: var(--muted);
+            font-size: 16px;
+            line-height: 1.75;
+        }
+
+        .project-link {
+            margin-top: auto;
+            padding-top: 35px;
+            font-size: 15px;
+            font-weight: 700;
+            transition: color 0.2s ease;
+        }
+
+        .project-link:hover {
+            color: var(--accent);
+        }
+
+
+        /* =========================================
+           DESIGN
+        ========================================= */
+
+        .design-section {
+            background: #0b0d10;
+        }
+
+        .design-box {
+            display: grid;
+            grid-template-columns: 0.8fr 1.2fr;
+            gap: 70px;
+            padding: 50px;
+            border: 1px solid var(--border);
+            border-radius: 18px;
+            background:
+                radial-gradient(
+                    circle at top right,
+                    rgba(139, 92, 246, 0.13),
+                    transparent 50%
+                ),
+                var(--surface);
+        }
+
+        .design-box h3 {
+            font-size: 34px;
+            line-height: 1.15;
+            letter-spacing: -0.045em;
+        }
+
+        .design-box-content p {
+            color: var(--muted);
+            font-size: 18px;
+            line-height: 1.8;
+        }
+
+        .design-box-content p + p {
+            margin-top: 22px;
+        }
+
+        .design-tools {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 30px;
+        }
+
+        .design-tools span {
+            padding: 9px 13px;
+            border: 1px solid var(--border);
+            border-radius: 7px;
+            color: var(--text-soft);
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+
+        /* =========================================
+           EXPERIENCE
+        ========================================= */
+
+        .experience-list {
+            border-top: 1px solid var(--border);
+        }
+
+        .experience-item {
+            display: grid;
+            grid-template-columns: 200px 1fr;
+            gap: 60px;
+            padding: 38px 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .experience-date {
+            color: var(--muted);
+            font-size: 14px;
+            font-weight: 600;
+        }
+
+        .experience-content h3 {
+            font-size: 27px;
+            line-height: 1.2;
+            letter-spacing: -0.04em;
+        }
+
+        .experience-company {
+            margin-top: 6px;
+            color: var(--accent);
+            font-size: 15px;
+            font-weight: 700;
+        }
+
+        .experience-content p {
+            max-width: 720px;
+            margin-top: 15px;
+            color: var(--muted);
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+
+        /* =========================================
+           EDUCATION
+        ========================================= */
+
+        .education-card {
+            padding: 42px;
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            background:
+                radial-gradient(
+                    circle at top right,
+                    rgba(139, 92, 246, 0.13),
+                    transparent 50%
+                ),
+                var(--surface);
+        }
+
+        .education-card h3 {
+            font-size: 31px;
+            line-height: 1.15;
+            letter-spacing: -0.045em;
+        }
+
+        .education-school {
+            margin-top: 9px;
+            color: var(--accent);
+            font-size: 15px;
+            font-weight: 700;
+        }
+
+        .education-card p {
+            margin-top: 18px;
+            color: var(--muted);
+            font-size: 17px;
+            line-height: 1.7;
+        }
+
+
+        /* =========================================
+           CONTACT
+        ========================================= */
+
+        .contact-box {
+            padding: 65px;
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            background:
+                radial-gradient(
+                    circle at top right,
+                    rgba(139, 92, 246, 0.13),
+                    transparent 50%
+                ),
+                var(--surface);
+        }
+
+        .contact-box h2 {
+            max-width: 850px;
+            font-size: clamp(50px, 6vw, 76px);
+            line-height: 0.98;
+            letter-spacing: -0.06em;
+        }
+
+        .contact-box p {
+            max-width: 650px;
+            margin-top: 25px;
+            color: var(--muted);
+            font-size: 18px;
+            line-height: 1.75;
+        }
+
+        .contact-links {
+            display: flex;
+            gap: 12px;
+            flex-wrap: wrap;
+            margin-top: 35px;
+        }
+
+
+        /* =========================================
+           FOOTER
+        ========================================= */
+
+        footer {
+            border-top: 1px solid var(--border);
+            padding: 30px 0;
+        }
+
+        .footer-inner {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+        }
+
+        .footer-inner p,
+        .footer-links a {
+            color: var(--muted);
+            font-size: 16px;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 22px;
+        }
+
+        .footer-links a:hover {
+            color: var(--text);
+        }
+
+
+        /* =========================================
+           ACCESSIBILITY
+        ========================================= */
+
+        a:focus-visible {
+            outline: 2px solid var(--accent);
+            outline-offset: 4px;
+        }
+
+
+        /* =========================================
+           TABLET
+        ========================================= */
+
+        @media (max-width: 900px) {
+
+            section {
+                padding: 105px 0;
+            }
+
+            .about-grid {
+                grid-template-columns: 1fr;
+                gap: 45px;
+            }
+
+            .skills-grid,
+            .projects-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+
+            .design-box {
+                grid-template-columns: 1fr;
+                gap: 35px;
+            }
+
+            .hero-title {
+                font-size: clamp(52px, 15vw, 76px);
+                line-height: 1;
+                letter-spacing: -0.055em;
+            }
+
+            .hero-title span {
+                margin-top: 16px;
+                padding: 5px 12px 9px;
+            }
+        }
+
+
+        /* =========================================
+           MOBILE
+        ========================================= */
+
+        @media (max-width: 700px) {
+
+            .container {
+                width: min(100% - 30px, var(--max-width));
+            }
+
+            .nav-inner {
+                min-height: 64px;
+            }
+
+            .nav-links {
+                display: none;
+            }
+
+            section {
+                padding: 80px 0;
+            }
+
+            .section-header {
+                margin-bottom: 50px;
+            }
+
+            .section-title {
+                font-size: clamp(45px, 13vw, 60px);
+            }
+
+            .section-description {
+                font-size: 17px;
+            }
+
+            .hero {
+                min-height: calc(100vh - 64px);
+            }
+
+            .hero-role {
+                font-size: 12px;
+            }
+
+            .hero-title {
+                font-size: clamp(52px, 15vw, 76px);
+                line-height: 0.94;
+            }
+
+            .hero-description {
+                margin-top: 28px;
+                font-size: 17px;
+            }
+
+            .about-lead {
+                font-size: 27px;
+            }
+
+            .about-copy p {
+                font-size: 17px;
+            }
+
+            .skills-grid,
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .skill-card {
+                padding: 30px;
+            }
+
+            .project-card {
+                min-height: 360px;
+                padding: 30px;
+            }
+
+            .project-card h3 {
+                font-size: 27px;
+            }
+
+            .design-box {
+                padding: 30px;
+            }
+
+            .design-box h3 {
+                font-size: 29px;
+            }
+
+            .design-box-content p {
+                font-size: 17px;
+            }
+
+            .experience-item {
+                grid-template-columns: 1fr;
+                gap: 9px;
+            }
+
+            .education-card {
+                padding: 30px;
+            }
+
+            .education-card h3 {
+                font-size: 27px;
+            }
+
+            .contact-box {
+                padding: 40px 26px;
+            }
+
+            .contact-box h2 {
+                font-size: clamp(45px, 13vw, 62px);
+            }
+
+            .contact-box p {
+                font-size: 17px;
+            }
+
+            .footer-inner {
+                flex-direction: column;
+                align-items: flex-start;
+            }
+        }
+
+
+        /* =========================================
+           REDUCED MOTION
+        ========================================= */
+
+        @media (prefers-reduced-motion: reduce) {
+
+            html {
+                scroll-behavior: auto;
+            }
+
+            *,
+            *::before,
+            *::after {
+                transition: none !important;
+            }
+        }
+
+    </style>
 </head>
+
 
 <body>
 
-<header>
-    <h1>Sandip Begha</h1>
+    <!-- NAVIGATION -->
 
-    <p class="subtitle">
-        Graphic Designer &amp; Aspiring Software Developer
-    </p>
+    <header class="navbar">
 
-    <p class="intro">
-        I am a graphic designer who is currently learning software
-        development. I have been building small projects with Python
-        and JavaScript while improving my understanding of programming,
-        web development, and user interfaces.
-    </p>
+        <div class="container nav-inner">
 
-    <div class="links">
-        <a
-            href="https://github.com/sandipbeghaa"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            GitHub
-        </a>
+            <a href="#top" class="logo">
+                Sandip<span>.</span>
+            </a>
 
-        <a
-            href="https://sites.google.com/view/sandip-begha/home"
-            target="_blank"
-            rel="noopener noreferrer"
-        >
-            Design Portfolio
-        </a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#design">Design</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
 
-        <a href="mailto:sandipbeghaa@gmail.com">
-            Contact
-        </a>
-    </div>
-</header>
-
-
-<main>
-
-    <section>
-        <h2>About Me</h2>
-
-        <p class="item-desc">
-            My professional background is in graphic design, but I have
-            become increasingly interested in programming and software
-            development. I am currently developing my skills in Python,
-            JavaScript, HTML, and CSS through courses and personal projects.
-        </p>
-
-        <p class="item-desc">
-            My goal is to continue developing my programming skills and
-            eventually work in software development, particularly in
-            application development.
-        </p>
-    </section>
-
-
-    <section>
-        <h2>Programming &amp; Technical Skills</h2>
-
-        <div class="skills-group">
-            <p class="skills-label">Currently learning and using</p>
-
-            <span class="badge tech">Python</span>
-            <span class="badge tech">JavaScript</span>
-            <span class="badge tech">HTML</span>
-            <span class="badge tech">CSS</span>
-            <span class="badge tech">Tkinter</span>
-            <span class="badge tech">JSON</span>
-            <span class="badge tech">Git / GitHub</span>
-        </div>
-    </section>
-
-
-    <section>
-        <h2>Projects</h2>
-
-        <div class="item">
-            <p class="item-title">Live Inventory Manager</p>
-
-            <p class="item-sub">
-                Python &amp; Tkinter
-            </p>
-
-            <p class="item-desc">
-                A desktop application for managing inventory information.
-                The project uses a graphical interface and data tables to
-                add, update, and manage inventory records.
-            </p>
         </div>
 
+    </header>
 
-        <div class="item">
-            <p class="item-title">Graphical Expense Tracker</p>
 
-            <p class="item-sub">
-                Python &amp; JSON
+    <main id="top">
+
+
+        <!-- HERO -->
+
+        <section class="hero">
+
+            <div class="container">
+
+                <div class="hero-content">
+
+                    <p class="hero-role">
+                        Graphic Designer | JavaScript | Python | Open to Europe
+                    </p>
+
+                    <h1 class="hero-title">
+                        Designing ideas.
+                        <br>
+                        <span>Building software.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        I'm Sandip Begha, a graphic designer currently learning
+                        software development with Python and JavaScript.
+                        I enjoy combining design, technology and practical
+                        problem-solving to build useful digital experiences.
+                    </p>
+
+                    <div class="hero-actions">
+
+                        <a href="#projects" class="button button-primary">
+                            View my projects
+                        </a>
+
+                        <a href="#contact" class="button button-secondary">
+                            Get in touch
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ABOUT -->
+
+        <section id="about">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <h2 class="section-title">
+                        About
+                    </h2>
+
+                    <p class="section-description">
+                        My background is in graphic design, while I'm now
+                        developing my programming and application-development
+                        skills.
+                    </p>
+
+                </div>
+
+
+                <div class="about-grid">
+
+                    <div>
+
+                        <p class="about-lead">
+                            I like understanding how things work and turning
+                            ideas into practical digital products.
+                        </p>
+
+                    </div>
+
+
+                    <div class="about-copy">
+
+                        <p>
+                            I have professional experience as a graphic
+                            designer and have worked with visual design,
+                            branding and digital content.
+                        </p>
+
+                        <p>
+                            Alongside design, I am learning Python, JavaScript,
+                            HTML, CSS, Git and application development. I am
+                            building small projects to improve my programming
+                            fundamentals and gain practical development
+                            experience.
+                        </p>
+
+                        <p>
+                            My long-term goal is to grow into a software
+                            developer while keeping the design skills that
+                            already form part of my background.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- SKILLS -->
+
+        <section id="skills">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <h2 class="section-title">
+                        Skills
+                    </h2>
+
+                    <p class="section-description">
+                        Technologies, tools and design software I am currently
+                        learning and using.
+                    </p>
+
+                </div>
+
+
+                <div class="skills-grid">
+
+
+                    <div class="skill-card">
+
+                        <h3>
+                            Development
+                        </h3>
+
+                        <div class="skill-list">
+                            <span>HTML</span>
+                            <span>CSS</span>
+                            <span>Python</span>
+                            <span>JavaScript</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <h3>
+                            Tools
+                        </h3>
+
+                        <div class="skill-list">
+                            <span>VS Code</span>
+                            <span>GitHub</span>
+                        </div>
+
+                    </div>
+
+
+                    <div class="skill-card">
+
+                        <h3>
+                            Design
+                        </h3>
+
+                        <div class="skill-list">
+                            <span>Photoshop</span>
+                            <span>Illustrator</span>
+                            <span>Lightroom</span>
+                            <span>After Effects</span>
+                            <span>Graphic Design</span>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- PROJECTS -->
+
+        <section id="projects">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <h2 class="section-title">
+                        Projects
+                    </h2>
+
+                    <p class="section-description">
+                        Small practical projects created while learning
+                        programming and application development.
+                    </p>
+
+                </div>
+
+
+                <div class="projects-grid">
+
+
+                    <!-- PROJECT 1 -->
+
+                    <article class="project-card">
+
+                        <div>
+
+                            <h3>
+                                Live Inventory Manager
+                            </h3>
+
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>·</span>
+                                <span>Tkinter</span>
+                            </div>
+
+                            <p>
+                                A Python and Tkinter desktop application for
+                                managing inventory through a graphical user
+                                interface.
+                            </p>
+
+                        </div>
+
+                        <a
+                            href="https://github.com/sandipbeghaa"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link"
+                        >
+                            View on GitHub →
+                        </a>
+
+                    </article>
+
+
+                    <!-- PROJECT 2 -->
+
+                    <article class="project-card">
+
+                        <div>
+
+                            <h3>
+                                Graphical Expense Tracker
+                            </h3>
+
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>·</span>
+                                <span>JSON</span>
+                                <span>·</span>
+                                <span>Tkinter</span>
+                            </div>
+
+                            <p>
+                                A Python application for recording and managing
+                                expenses with data stored using JSON.
+                            </p>
+
+                        </div>
+
+                        <a
+                            href="https://github.com/sandipbeghaa"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link"
+                        >
+                            View on GitHub →
+                        </a>
+
+                    </article>
+
+
+                    <!-- PROJECT 3 -->
+
+                    <article class="project-card">
+
+                        <div>
+
+                            <h3>
+                                Terminal To-Do App
+                            </h3>
+
+                            <div class="project-tech">
+                                <span>Python</span>
+                                <span>·</span>
+                                <span>JSON</span>
+                            </div>
+
+                            <p>
+                                A command-line task manager that stores tasks
+                                in a JSON file and supports adding, completing
+                                and deleting tasks.
+                            </p>
+
+                        </div>
+
+                        <a
+                            href="https://github.com/sandipbeghaa"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="project-link"
+                        >
+                            View on GitHub →
+                        </a>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- DESIGN -->
+
+        <section id="design" class="design-section">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <h2 class="section-title">
+                        Design
+                    </h2>
+
+                    <p class="section-description">
+                        My professional design background and the visual
+                        skills I bring into digital products and interfaces.
+                    </p>
+
+                </div>
+
+
+                <div class="design-box">
+
+                    <div>
+
+                        <h3>
+                            Graphic Design
+                        </h3>
+
+                    </div>
+
+
+                    <div class="design-box-content">
+
+                        <p>
+                            I have professional experience creating visual
+                            content, layouts, digital graphics and promotional
+                            materials. My design work has taught me to think
+                            about hierarchy, composition, consistency and how
+                            people interact with visual information.
+                        </p>
+
+                        <p>
+                            As I move into software development, I want to
+                            combine that visual background with programming
+                            to create interfaces and digital products that
+                            are both functional and clear.
+                        </p>
+
+
+                        <div class="design-tools">
+
+                            <span>Photoshop</span>
+                            <span>Illustrator</span>
+                            <span>Lightroom</span>
+                            <span>After Effects</span>
+                            <span>Web Design</span>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EXPERIENCE -->
+
+        <section id="experience">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <h2 class="section-title">
+                        Experience
+                    </h2>
+
+                    <p class="section-description">
+                        My professional experience in design and digital work.
+                    </p>
+
+                </div>
+
+
+                <div class="experience-list">
+
+
+                    <article class="experience-item">
+
+                        <div class="experience-date">
+                            Graphic Design
+                        </div>
+
+                        <div class="experience-content">
+
+                            <h3>
+                                Graphic Designer
+                            </h3>
+
+                            <div class="experience-company">
+                                Codeyard
+                            </div>
+
+                            <p>
+                                Worked on graphic design and visual content
+                                for digital projects.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="experience-item">
+
+                        <div class="experience-date">
+                            Graphic Design
+                        </div>
+
+                        <div class="experience-content">
+
+                            <h3>
+                                Graphic Designer
+                            </h3>
+
+                            <div class="experience-company">
+                                Arya Digital Production
+                            </div>
+
+                            <p>
+                                Worked on visual design and digital creative
+                                materials.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                    <article class="experience-item">
+
+                        <div class="experience-date">
+                            Trainee
+                        </div>
+
+                        <div class="experience-content">
+
+                            <h3>
+                                Trainee
+                            </h3>
+
+                            <div class="experience-company">
+                                Daraz
+                            </div>
+
+                            <p>
+                                Gained professional experience in a digital
+                                business environment.
+                            </p>
+
+                        </div>
+
+                    </article>
+
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- EDUCATION -->
+
+        <section id="education">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <h2 class="section-title">
+                        Education
+                    </h2>
+
+                    <p class="section-description">
+                        My academic background.
+                    </p>
+
+                </div>
+
+
+                <div class="education-card">
+
+                    <h3>
+                        Bachelor of Arts in Social Work
+                    </h3>
+
+                    <div class="education-school">
+                        Triton International College
+                    </div>
+
+                    <p>
+                        2018 – 2026
+                    </p>
+
+                    <p>
+                        Major electives: Social Work and Psychology.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- CONTACT -->
+
+        <section id="contact">
+
+            <div class="container">
+
+                <div class="contact-box">
+
+                    <h2>
+                        Contact
+                    </h2>
+
+                    <p>
+                        If you would like to discuss a project, design work,
+                        development or potential opportunities, you can
+                        reach me through the links below.
+                    </p>
+
+
+                    <div class="contact-links">
+
+                        <a
+                            href="mailto:sandipbeghaa@gmail.com"
+                            class="button button-primary"
+                        >
+                            Email me
+                        </a>
+
+                        <a
+                            href="https://github.com/sandipbeghaa"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="button button-secondary"
+                        >
+                            GitHub
+                        </a>
+
+                        <a
+                            href="https://sites.google.com/view/sandip-begha/home"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            class="button button-secondary"
+                        >
+                            Design Portfolio
+                        </a>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+    </main>
+
+
+    <!-- FOOTER -->
+
+    <footer>
+
+        <div class="container footer-inner">
+
+            <p>
+                © 2026 Sandip Begha. All rights reserved.
             </p>
 
-            <p class="item-desc">
-                A small expense tracking application for recording and
-                organizing financial information. The project uses Python
-                for the application logic and JSON for local data storage.
-            </p>
+            <div class="footer-links">
+
+                <a
+                    href="https://github.com/sandipbeghaa"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    GitHub
+                </a>
+
+                <a
+                    href="https://sites.google.com/view/sandip-begha/home"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                >
+                    Portfolio
+                </a>
+
+                <a href="#top">
+                    Back to top
+                </a>
+
+            </div>
+
         </div>
 
-
-        <div class="item">
-            <p class="item-title">Terminal To-Do Application</p>
-
-            <p class="item-sub">
-                Python
-            </p>
-
-            <p class="item-desc">
-                A command-line task manager where users can add, view,
-                complete, and delete tasks. Tasks are stored in a JSON file
-                so that they remain available after the program is closed.
-            </p>
-        </div>
-    </section>
+    </footer>
 
 
-    <section>
-        <h2>Design Skills</h2>
-
-        <div class="skills-group">
-            <span class="badge design">Adobe Photoshop</span>
-            <span class="badge design">Adobe Illustrator</span>
-            <span class="badge design">Adobe Lightroom</span>
-            <span class="badge design">Adobe After Effects</span>
-        </div>
-    </section>
-
-
-    <section>
-        <h2>Professional Experience</h2>
-
-        <div class="item">
-            <p class="item-title">Graphic Designer</p>
-
-            <p class="item-sub">
-                Codeyard
-            </p>
-        </div>
-
-
-        <div class="item">
-            <p class="item-title">Graphic Designer</p>
-
-            <p class="item-sub">
-                Arya Digital Production
-            </p>
-        </div>
-
-
-        <div class="item">
-            <p class="item-title">Trainee</p>
-
-            <p class="item-sub">
-                Daraz
-            </p>
-        </div>
-    </section>
-
-
-    <section>
-        <h2>Education</h2>
-
-        <div class="item">
-            <p class="item-title">
-                Bachelor of Arts in Social Work
-            </p>
-
-            <p class="item-sub">
-                Triton International College
-            </p>
-
-            <p class="item-desc">
-                Major electives: Social Work and Psychology
-            </p>
-        </div>
-    </section>
-
-
-    <section>
-        <h2>Current Focus</h2>
-
-        <p class="item-desc">
-            I am currently focused on improving my programming fundamentals,
-            building practical projects, and learning how software is
-            developed from idea to working application.
-        </p>
-    </section>
-
-</main>
-
-
-<footer>
-    <p>
-        &copy; 2026 Sandip Begha. Built as a personal learning and
-        development portfolio.
-    </p>
-</footer>
-
-</body> </html>
+</body>
+</html>
