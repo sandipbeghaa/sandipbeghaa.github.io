@@ -1,196 +1,360 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="google-site-verification" content="xPW3CFczKjs4tVagYYJPGyDa72vQdnd5QAIZ8LpNJwQ" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Sandip Begha | Portfolio</title>
-    
-    <!-- CSS Layout for Human Visitors -->
-    <style>
-        :root {
-            --primary: #2563eb;
-            --dark: #1e293b;
-            --light: #f8fafc;
-            --accent-tech: #dcfce7;
-            --text-tech: #166534;
-            --accent-design: #fee2e2;
-            --text-design: #991b1b;
-        }
-        body { 
-            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; 
-            line-height: 1.6; 
-            max-width: 750px; 
-            margin: 40px auto; 
-            padding: 0 20px; 
-            color: var(--dark);
-            background-color: #fff;
-        }
-        h1 { margin-bottom: 5px; font-size: 2.2rem; }
-        .subtitle { font-size: 1.2rem; color: #64748b; margin-top: 0; margin-bottom: 25px; }
-        h2 { border-bottom: 2px solid #e2e8f0; padding-bottom: 5px; margin-top: 35px; color: var(--dark); }
-        .skills-group { margin-bottom: 15px; }
-        .badge { 
-            display: inline-block; 
-            padding: 6px 12px; 
-            border-radius: 20px; 
-            margin: 4px; 
-            font-size: 0.9rem; 
-            font-weight: 600; 
-        }
-        .tech { background-color: var(--accent-tech); color: var(--text-tech); }
-        .design { background-color: var(--accent-design); color: var(--text-design); }
-        .item-block { margin-bottom: 20px; }
-        .item-title { font-weight: bold; margin: 0; font-size: 1.1rem; }
-        .item-sub { color: var(--primary); margin: 0; font-size: 0.95rem; }
-        .item-desc { color: #475569; margin: 5px 0 0 0; font-size: 0.95rem; }
-        .links { margin-top: 10px; }
-        .links a { color: var(--primary); text-decoration: none; margin-right: 15px; font-weight: 500; }
-        .links a:hover { text-decoration: underline; }
-    </style>
 
-    <!-- Google Structured Data (Fully Configured Schema Code) -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Person",
-      "name": "Sandip Begha",
-      "url": "https://github.io",
-      "jobTitle": "Software Developer and Graphic Designer",
-      "description": "Software developer proficient in JavaScript and Python, building clean desktop utilities and interactive user interfaces.",
-      "alumniOf": {
-        "@type": "EducationalOrganization",
-        "name": "Triton International College"
-      },
-      "hasCredential": {
-        "@type": "EducationalOccupationalCredential",
-        "name": "Bachelor of Arts in Social Work",
-        "credentialCategory": "degree",
-        "about": [
-          {
-            "@type": "Thing",
-            "name": "Social Work"
-          },
-          {
-            "@type": "Thing",
-            "name": "Psychology"
-          }
-        ]
-      },
-      "worksFor": [
-        {
-          "@type": "Organization",
-          "name": "Codeyard"
-        },
-        {
-          "@type": "Organization",
-          "name": "Arya Digital Production"
-        },
-        {
-          "@type": "Organization",
-          "name": "Daraz"
-        }
-      ],
-      "sameAs": [
-        "https://github.com/sandipbeghaa",
-        "https://sites.google.com/view/sandip-begha/home",
-        "https://linktr.ee"
-      ],
-      "knowsAbout": [
-        "JavaScript",
-        "Python",
-        "Tkinter UI",
-        "Software Development",
-        "Graphic Design",
-        "Adobe Photoshop",
-        "Adobe Illustrator",
-        "Adobe Lightroom",
-        "Adobe After Effects"
-      ]
+<html lang="en"> <head> <meta charset="UTF-8"> <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Sandip Begha | Graphic Designer & Aspiring Software Developer</title>
+<meta
+    name="description"
+    content="Portfolio of Sandip Begha, a graphic designer and aspiring software developer learning Python and JavaScript."
+>
+
+<style>
+    :root {
+        --primary: #2563eb;
+        --dark: #1e293b;
+        --text: #475569;
+        --light: #f8fafc;
+        --border: #e2e8f0;
+        --tech-bg: #dcfce7;
+        --tech-text: #166534;
+        --design-bg: #fee2e2;
+        --design-text: #991b1b;
     }
-    </script>
+
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+            Roboto, Arial, sans-serif;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 40px 20px;
+        color: var(--dark);
+        background: #ffffff;
+    }
+
+    header {
+        margin-bottom: 40px;
+    }
+
+    h1 {
+        margin: 0 0 5px;
+        font-size: 2.3rem;
+    }
+
+    h2 {
+        margin-top: 40px;
+        padding-bottom: 8px;
+        border-bottom: 2px solid var(--border);
+        font-size: 1.4rem;
+    }
+
+    .subtitle {
+        margin: 0 0 20px;
+        color: var(--text);
+        font-size: 1.15rem;
+    }
+
+    .intro {
+        color: var(--text);
+        max-width: 700px;
+    }
+
+    .links {
+        margin-top: 20px;
+    }
+
+    .links a {
+        display: inline-block;
+        margin-right: 15px;
+        margin-bottom: 8px;
+        color: var(--primary);
+        text-decoration: none;
+        font-weight: 500;
+    }
+
+    .links a:hover {
+        text-decoration: underline;
+    }
+
+    .skills-group {
+        margin-bottom: 20px;
+    }
+
+    .skills-label {
+        margin-bottom: 8px;
+        font-weight: 600;
+    }
+
+    .badge {
+        display: inline-block;
+        padding: 6px 12px;
+        margin: 4px 4px 4px 0;
+        border-radius: 20px;
+        font-size: 0.9rem;
+        font-weight: 600;
+    }
+
+    .tech {
+        background-color: var(--tech-bg);
+        color: var(--tech-text);
+    }
+
+    .design {
+        background-color: var(--design-bg);
+        color: var(--design-text);
+    }
+
+    .item {
+        margin-bottom: 25px;
+    }
+
+    .item-title {
+        margin: 0;
+        font-weight: 700;
+        font-size: 1.1rem;
+    }
+
+    .item-sub {
+        margin: 3px 0;
+        color: var(--primary);
+    }
+
+    .item-desc {
+        margin: 6px 0 0;
+        color: var(--text);
+    }
+
+    footer {
+        margin-top: 50px;
+        padding-top: 20px;
+        border-top: 1px solid var(--border);
+        color: var(--text);
+        font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+        body {
+            padding: 25px 16px;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+    }
+</style>
+
 </head>
+
 <body>
 
-    <header>
-        <h1>Sandip Begha</h1>
-        <p class="subtitle">Software Developer & Graphic Designer</p>
-        <div class="links">
-            <a href="https://github.com/sandipbeghaa" target="_blank">💻 GitHub</a>
-            <a href="https://sites.google.com/view/sandip-begha/home" target="_blank">🎨 Design Portfolio</a>
-            <a href="mailto:sandipbeghaa@gmail.com">✉️ Contact</a>
+<header>
+    <h1>Sandip Begha</h1>
+
+    <p class="subtitle">
+        Graphic Designer &amp; Aspiring Software Developer
+    </p>
+
+    <p class="intro">
+        I am a graphic designer who is currently learning software
+        development. I have been building small projects with Python
+        and JavaScript while improving my understanding of programming,
+        web development, and user interfaces.
+    </p>
+
+    <div class="links">
+        <a
+            href="https://github.com/sandipbeghaa"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            GitHub
+        </a>
+
+        <a
+            href="https://sites.google.com/view/sandip-begha/home"
+            target="_blank"
+            rel="noopener noreferrer"
+        >
+            Design Portfolio
+        </a>
+
+        <a href="mailto:sandipbeghaa@gmail.com">
+            Contact
+        </a>
+    </div>
+</header>
+
+
+<main>
+
+    <section>
+        <h2>About Me</h2>
+
+        <p class="item-desc">
+            My professional background is in graphic design, but I have
+            become increasingly interested in programming and software
+            development. I am currently developing my skills in Python,
+            JavaScript, HTML, and CSS through courses and personal projects.
+        </p>
+
+        <p class="item-desc">
+            My goal is to continue developing my programming skills and
+            eventually work in software development, particularly in
+            application development.
+        </p>
+    </section>
+
+
+    <section>
+        <h2>Programming &amp; Technical Skills</h2>
+
+        <div class="skills-group">
+            <p class="skills-label">Currently learning and using</p>
+
+            <span class="badge tech">Python</span>
+            <span class="badge tech">JavaScript</span>
+            <span class="badge tech">HTML</span>
+            <span class="badge tech">CSS</span>
+            <span class="badge tech">Tkinter</span>
+            <span class="badge tech">JSON</span>
+            <span class="badge tech">Git / GitHub</span>
         </div>
-    </header>
+    </section>
 
-    <main>
-        <section>
-            <h2>Technical & Programming Skills</h2>
-            <div class="skills-group">
-                <span class="badge tech">JavaScript</span>
-                <span class="badge tech">Python</span>
-                <span class="badge tech">Tkinter Application UI</span>
-                <span class="badge tech">Software Architecture</span>
-            </div>
-        </section>
 
-        <section>
-            <h2>Featured Code Repositories</h2>
-            
-            <div class="item-block">
-                <p class="item-title">📋 Live Inventory Manager</p>
-                <p class="item-sub">Python & Tkinter UI</p>
-                <p class="item-desc">An interactive desktop asset system featuring real-time graphical data tables for dynamically updating, calculating, and maintaining inventory logs.</p>
-            </div>
+    <section>
+        <h2>Projects</h2>
 
-            <div class="item-block">
-                <p class="item-title">📊 Graphical Expense Tracker</p>
-                <p class="item-sub">Python & JSON Engine</p>
-                <p class="item-desc">A structured financial calculator built with custom categorized metrics, local data persistence processing, and dynamic localized storage mapping.</p>
-            </div>
+        <div class="item">
+            <p class="item-title">Live Inventory Manager</p>
 
-            <div class="item-block">
-                <p class="item-title">💻 Terminal To-Do Application</p>
-                <p class="item-sub">Pure Command-Line Python</p>
-                <p class="item-desc">A optimized terminal interface focusing on efficient low-level handling of nested task schemas and state updates.</p>
-            </div>
-        </section>
+            <p class="item-sub">
+                Python &amp; Tkinter
+            </p>
 
-        <section>
-            <h2>Design Expertise</h2>
-            <div class="skills-group">
-                <span class="badge design">Adobe Photoshop</span>
-                <span class="badge design">Adobe Illustrator</span>
-                <span class="badge design">Adobe Lightroom</span>
-                <span class="badge design">Adobe After Effects</span>
-            </div>
-        </section>
+            <p class="item-desc">
+                A desktop application for managing inventory information.
+                The project uses a graphical interface and data tables to
+                add, update, and manage inventory records.
+            </p>
+        </div>
 
-        <section>
-            <h2>Professional Experience</h2>
-            
-            <div class="item-block">
-                <p class="item-title">Graphic Designer</p>
-                <p class="item-sub">Codeyard</p>
-            </div>
 
-            <div class="item-block">
-                <p class="item-title">Graphic Designer</p>
-                <p class="item-sub">Arya Digital Production</p>
-            </div>
+        <div class="item">
+            <p class="item-title">Graphical Expense Tracker</p>
 
-            <div class="item-block">
-                <p class="item-title">Trainee</p>
-                <p class="item-sub">Daraz</p>
-            </div>
-        </section>
+            <p class="item-sub">
+                Python &amp; JSON
+            </p>
 
-        <section>
-            <h2>Education</h2>
-            <p class="item-title">Bachelor of Arts in Social Work</p>
-            <p class="item-sub">Triton International College</p>
-            <p class="item-desc">Major Electives: Social Work & Psychology</p>
-        </section>
-    </main>
+            <p class="item-desc">
+                A small expense tracking application for recording and
+                organizing financial information. The project uses Python
+                for the application logic and JSON for local data storage.
+            </p>
+        </div>
 
-</body>
-</html>
+
+        <div class="item">
+            <p class="item-title">Terminal To-Do Application</p>
+
+            <p class="item-sub">
+                Python
+            </p>
+
+            <p class="item-desc">
+                A command-line task manager where users can add, view,
+                complete, and delete tasks. Tasks are stored in a JSON file
+                so that they remain available after the program is closed.
+            </p>
+        </div>
+    </section>
+
+
+    <section>
+        <h2>Design Skills</h2>
+
+        <div class="skills-group">
+            <span class="badge design">Adobe Photoshop</span>
+            <span class="badge design">Adobe Illustrator</span>
+            <span class="badge design">Adobe Lightroom</span>
+            <span class="badge design">Adobe After Effects</span>
+        </div>
+    </section>
+
+
+    <section>
+        <h2>Professional Experience</h2>
+
+        <div class="item">
+            <p class="item-title">Graphic Designer</p>
+
+            <p class="item-sub">
+                Codeyard
+            </p>
+        </div>
+
+
+        <div class="item">
+            <p class="item-title">Graphic Designer</p>
+
+            <p class="item-sub">
+                Arya Digital Production
+            </p>
+        </div>
+
+
+        <div class="item">
+            <p class="item-title">Trainee</p>
+
+            <p class="item-sub">
+                Daraz
+            </p>
+        </div>
+    </section>
+
+
+    <section>
+        <h2>Education</h2>
+
+        <div class="item">
+            <p class="item-title">
+                Bachelor of Arts in Social Work
+            </p>
+
+            <p class="item-sub">
+                Triton International College
+            </p>
+
+            <p class="item-desc">
+                Major electives: Social Work and Psychology
+            </p>
+        </div>
+    </section>
+
+
+    <section>
+        <h2>Current Focus</h2>
+
+        <p class="item-desc">
+            I am currently focused on improving my programming fundamentals,
+            building practical projects, and learning how software is
+            developed from idea to working application.
+        </p>
+    </section>
+
+</main>
+
+
+<footer>
+    <p>
+        &copy; 2026 Sandip Begha. Built as a personal learning and
+        development portfolio.
+    </p>
+</footer>
+
+</body> </html>
